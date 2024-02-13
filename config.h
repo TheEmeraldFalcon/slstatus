@@ -88,5 +88,6 @@ static const struct arg args[] = {
 	{ run_command,         " |  %s",       cmd_spk_vol },
 	{ run_command,         " |  %s",       cmd_mic_vol },
 	{ run_command,         " |  %s",        cmd_brightness },
-	{ datetime,            " | %s",         "%a %Y/%m/%d | %T " },
+	{ datetime,            " |  %s",         "%a %Y/%m/%d" },
+	{ datetime,            " |  %s ",         "%T" },
 };
